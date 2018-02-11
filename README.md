@@ -1,6 +1,6 @@
 # Halcyon Theme for Hyper
 
-![](images/demo.png)
+![demo](images/demo.png)
 
 ## Installation
 
