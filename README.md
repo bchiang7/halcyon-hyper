@@ -8,7 +8,7 @@
 2. Update your list of plugins to include `halcyon-hyper`, like this:
 
 ```js
-plugins: [`halcyon-hyper`];
+plugins: [`hyper-halcyon-theme`];
 ```
 
 3. Fully reload Hyper `Cmd + Shift + R` or `View > Full Reload`
