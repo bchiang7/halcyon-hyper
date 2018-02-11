@@ -1,6 +1,6 @@
 {
   "name": "hyper-halcyon-theme",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Halcyon Theme for Hyper",
   "main": "index.js",
   "scripts": {
