@@ -1,0 +1,17 @@
+{
+  "name": "halcyon-hyper",
+  "version": "0.0.1",
+  "description": "Halcyon Theme for Hyper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hyper",
+    "hyper-theme",
+    "halcyon",
+    "halcyon-theme"
+  ],
+  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "license": "MIT"
+}
