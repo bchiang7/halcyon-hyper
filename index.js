@@ -6,8 +6,7 @@ const FOREGROUND = '#D9D7CE';
 const UI_GREY = '#738699';
 const ACCENT = '#ffcc66';
 
-const RED = '#FF3333';
-const LIGHT_RED = '#f07178';
+const RED = '#f07178';
 const GREEN = '#BAE67E';
 const YELLOW = '#FFD580';
 const ORANGE = '#ffae57';
