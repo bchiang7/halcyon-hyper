@@ -1,6 +1,6 @@
 # Halcyon Theme for Hyper
 
-![demo](https://github.com/bchiang7/halcyon-hyper/blob/master/images/demo.png)
+![demo](https://raw.githubusercontent.com/bchiang7/halcyon-hyper/master/images/demo.png)
 
 ## Installation
 
