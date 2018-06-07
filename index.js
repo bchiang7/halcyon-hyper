@@ -1,23 +1,23 @@
 'use strict';
 
-const WORKBENCH = '#191E27';
-const BACKGROUND = '#212733';
-const FOREGROUND = '#D9D7CE';
-const UI_GREY = '#738699';
+const WORKBENCH = '#171c28';
+const BACKGROUND = '#1d2433';
+const FOREGROUND = '#d7dce2';
+const UI_GREY = '#8695b7';
 const ACCENT = '#ffcc66';
 
-const RED = '#f07178';
+const RED = '#ef6b73';
 const GREEN = '#BAE67E';
 const YELLOW = '#FFD580';
 const ORANGE = '#ffae57';
 const BLUE = '#5CCFE6';
-const MAGENTA = '#c678dd';
+const MAGENTA = '#c3a6ff';
 const PURPLE = '#c3a6ff';
 const SEAFOAM = '#95e6cb';
 const WHITE = '#FFFFFF';
-const LIGHT_GREY = '#abb2bf';
-const GREY = '#607080';
-const DARK_GREY = '#343D4A';
+const LIGHT_GREY = '#a2aabc';
+const GREY = '#8695b7';
+const DARK_GREY = '#2f3b54';
 
 const CURSOR_COLOR = ACCENT;
 const BORDER_COLOR = BACKGROUND;
