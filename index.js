@@ -38,8 +38,6 @@ const colors = {
 };
 
 exports.decorateConfig = config => Object.assign({}, config, {
-  fontSize: 13,
-  fontFamily: 'Fira Mono for Powerline, Fira Mono, Fira Code, SF Mono, Menlo, Lucida Console, monospace',
   fontWeight: 'normal',
   fontWeightBold: 'normal',
   lineHeight: 1.3,
