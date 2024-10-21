@@ -1,40 +1,41 @@
-const WORKBENCH = '#171c28';
-const BACKGROUND = '#1d2433';
-const FOREGROUND = '#a2aabc';
-const UI_GREY = '#6679a4';
-const ACCENT = '#ffcc66';
+const ACCENT =       '#ffcc66';
+const BLUE =         '#5ccfe6';
+const GREEN =        '#bae67e';
+const ORANGE =       '#ffaf57';
+const YELLOW =       '#ffd580';
+const PURPLE =       '#c3a6ff';
+const RED =          '#ef6b73';
+const BLACK =        '#171c28';
+const DARKEST_GREY = '#1d2433';
+const DARK_GREY =    '#2f3b54';
+const GREY =         '#6779a3';
+const LIGHT_GREY =   '#8695b7';
+const DIM_WHITE =    '#a2aabc';
+const WHITE =        '#d7dce2';
 
-const RED = '#ef6b73';
-const GREEN = '#bae67e';
-const YELLOW = '#ffd580';
-// const ORANGE = '#ffae57';
-const BLUE = '#5ccfe6';
-const PURPLE = '#c3a6ff';
-const MAGENTA = PURPLE;
-const WHITE = '#d7dce2';
-const LIGHT_GREY = '#8695b7';
-const GREY = '#2f3b54';
-const DARK_GREY = '#1d2433';
+const WORKBENCH =    BLACK;
+const BACKGROUND =   DARKEST_GREY;
+const FOREGROUND =   DIM_WHITE;
 
 const colors = {
-  black: WORKBENCH,
+  black: GREY,
   red: RED,
   green: GREEN,
   yellow: YELLOW,
   blue: BLUE,
-  magenta: MAGENTA,
+  magenta: PURPLE,
   cyan: BLUE,
-  white: LIGHT_GREY,
-  lightBlack: DARK_GREY,
+  white: WHITE,
+  lightBlack: GREY,
   lightRed: RED,
   lightGreen: GREEN,
   lightYellow: YELLOW,
   lightBlue: BLUE,
-  lightMagenta: MAGENTA,
+  lightMagenta: PURPLE,
   lightCyan: BLUE,
-  lightWhite: LIGHT_GREY,
+  lightWhite: WHITE,
   colorCubes: WHITE,
-  grayscale: UI_GREY,
+  grayscale: GREY,
 };
 
 exports.decorateConfig = config => Object.assign({}, config, {
@@ -46,8 +47,8 @@ exports.decorateConfig = config => Object.assign({}, config, {
   cursorBlink: true,
   foregroundColor: FOREGROUND,
   backgroundColor: BACKGROUND,
-  selectionColor: GREY,
-  borderColor: GREY,
+  selectionColor: DARK_GREY,
+  borderColor: DARK_GREY,
   css: `
     .hyper_main {
       border: none !important;
